@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+html,body{
+    margin:0;
+    padding: 0;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #89a1cf;
+    user-select: none;
+}
+
+#icon{
+    height: 150px;
+    opacity: 0.7;
+    border-radius: 200px;
+    margin: 0 auto;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px;
+}
+input{
+    width: 250px;
+    background-color: #DCE1FB;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+button{
+    color:#FDFDFD;
+    background-color: #6f82d4;
+    padding: 8px;
+    margin-left: 98px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+button:hover{
+    background-color: #4966e6;
+    cursor: pointer;
+}
+ul{
+    margin: 10px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;  
+    
+}
+ul li{
+    background-color: #e0e1e7;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    margin-right: 168px;
+}
+ul li:hover{
+    background-color: #cbcdde;
+    cursor: pointer;
+}
+
+  
+  
